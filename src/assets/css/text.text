@@ -1,0 +1,44 @@
++ float , flex : 
+
+float : - từ trên xuống dưới , từ trái qua phải
+        - các elements : cố gắng trồi lên trên , bên trái
+        - mặc định : nằm trên 1 thành phần khác
+        + nếu chia 3 cột đổ lên 
+        - học để biết
+        - khi trong 1 div có các thành phần con float trình duyệt ko tính toán được chiều
+clearfix : 
+
+
+flex :
+    - hiện đại , nhiều trình duyệt hỗ trợ
+    -  chia cột, chia hàng
+    - đặt property : display:flex 
+    - các thành phần con :  flex item 
+
+    + flex grow (cùng nhau lớn lên): 
+        - chia các phần block
+        - đặt trong các div con
+
+    + justify content : Sắp xếp vị trí theo trục main ,mặc định đi từ trái qua phải
+        - flex-start : 
+        - flex-end:
+        -thông dụng nhất là justify-content : space-between ;center ; space-around.
+
+    + flex-direction: chỉ ra hướng của trục
+        -flex-direction:column , col-reverse, row, row-reverse
+
+    +flex-basic :là height , width tùy vào hướng của trục
+        - là height :  flex direction là row 
+        - là width : flex direction là column
+
+    + align-self: 
+        -viết cho thằng con : muốn chỉ định riêng cho thằng con và định vị theo trục croos
+    + flex-shrink : 
+        - các thành phần con nhỏ lại và chia thành phần thiếu
+        - áp dụng cho reponsive
+    + flex-wrap :
+        - định nghĩa wrap theo trục main .
+        - hết dòng thì xuống hàng
+        - bọc lại
+    + flex-order : sắp xếp theo thứ tự 
+        - viết hết order cho thằng con

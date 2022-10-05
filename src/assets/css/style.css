@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    line-height: 1.8;
+}
+
+.contact-us {
+    margin: 30px auto;
+    width: 1000px;
+}
+
+.contact-us h2 {
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+.contact-us .flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-us .flex .contact-info {
+    flex-grow: 1;
+    flex-shrink: 3;
+    /* display: flex; */
+}
+
+.contact-us .flex .contact-info h3 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    /* text-align: center; */
+}
+
+.contact-us .flex .contact-info .icon i {
+    font-size: 25px;
+    padding-right: 25px;
+}
+
+.contact-us .flex .contact-info .icon {
+    color: rgb(153, 153, 153);
+    padding-bottom: 25px;
+    padding-left: 16px;
+}
+
+.contact-us .flex .contact-info .icon a {
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+}
+
+.contact-us .flex .form {
+    flex-grow: 3;
+    flex-shrink: 1;
+}
+
+.contact-us .flex .form h3 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    /* line-height: 2; */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 1px 2px 0px #ddd;
+}
+
+.contact-us .flex .form button[type="submit"] {
+    background-color: rgb(12, 184, 182);
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    color: #fff;
+    box-shadow: 0 1px 1px 0 #ccc;
+}
+
+.contact-us .flex .form button[type="submit"]:hover {
+    opacity: 0.8;
+}
